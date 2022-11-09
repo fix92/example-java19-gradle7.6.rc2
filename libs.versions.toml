@@ -1,0 +1,14 @@
+[versions]
+kotlin = "1.7.20"
+spring-boot = "2.7.5"
+
+[plugins]
+gradle-versions = { id = "com.github.ben-manes.versions", version = "0.43.0"}
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
+kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
+[libraries]
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin", version.ref = "kotlin" }
+
+spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring-boot" }

@@ -1,0 +1,5 @@
+[*.{kt,kts}]
+ktlint_disabled_rules = filename, multiline-if-else
+# trailing commas everywhere!!!
+ij_kotlin_allow_trailing_comma_on_call_site = true
+ij_kotlin_allow_trailing_comma = true

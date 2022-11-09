@@ -1,0 +1,9 @@
+server:
+  shutdown: graceful
+
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+    generate-ddl: false
+    hibernate.ddl-auto: validate
+    open-in-view: false
